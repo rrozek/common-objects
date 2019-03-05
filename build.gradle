@@ -1,0 +1,48 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+group = 'pl.czympojade'
+version = '0.3'
+
+repositories {
+	maven {
+		url "https://mymavenrepo.com/repo/gt2JML7wutIrYPLszeTR/"
+		credentials {
+			username 'myMavenRepo'
+			password 'repozytorium'
+		}
+	}
+}
+
+allprojects {
+	tasks.withType(JavaCompile) {
+		sourceCompatibility = '1.6'
+		targetCompatibility = '1.6'
+	}
+}
+
+task sourceJar(type: Jar) {
+	from sourceSets.main.allJava
+}
+
+publishing {
+	repositories {
+		maven {
+			url "https://mymavenrepo.com/repo/tiML4jbBzIpS28GKEE5H/"
+			credentials {
+				username 'myMavenRepo'
+				password 'repozytorium'
+			}
+		}
+	}
+
+	publications {
+		maven(MavenPublication) {
+			from components.java
+
+			artifact sourceJar {
+				classifier "sources"
+			}
+		}
+	}
+}
