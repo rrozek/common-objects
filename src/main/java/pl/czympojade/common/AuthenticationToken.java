@@ -1,15 +1,13 @@
 package pl.czympojade.common;
 
-import java.time.LocalDateTime;
-
 
 public class AuthenticationToken {
 
 	private final String accessToken;
 	private final String refreshToken;
-	private final LocalDateTime validUntil;
+	private final Long validUntil;
 
-	public AuthenticationToken(String accessToken, String refreshToken, LocalDateTime validUntil) {
+	public AuthenticationToken(String accessToken, String refreshToken, Long validUntil) {
 
 
 		this.accessToken = accessToken;
@@ -27,7 +25,7 @@ public class AuthenticationToken {
 		return refreshToken;
 	}
 
-	public LocalDateTime getValidUntil() {
+	public Long getValidUntil() {
 
 		return validUntil;
 	}
