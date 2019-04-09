@@ -8,6 +8,11 @@ public class ProviderDetails {
 	private final String appLink_ios;
 	private final Boolean credentialsEmailRequired;
 	private final Boolean credentialsPhoneRequired;
+	// todo: add list of ProviderDetails_Vehicle with provided vehicles including following:
+	// public class ProviderDetails_Vehicle {
+	// private final String model;
+	// private final String imgUrl;
+	// private final VehicleType vehicleType;
 
 	public ProviderDetails(String name,
 		String logo,
