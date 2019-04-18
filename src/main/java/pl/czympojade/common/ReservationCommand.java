@@ -1,6 +1,6 @@
 package pl.czympojade.common;
 
-public class ReservationCommand {
+public class ReservationCommand implements Jsonable {
 
 	private String vehicleId;
 	private String provider;

@@ -1,6 +1,6 @@
 package pl.czympojade.common;
 
-public class AuthenticationTokenResponse {
+public class AuthenticationTokenResponse implements Jsonable {
 
 	private final String message;
 	private final AuthenticationToken authentication;

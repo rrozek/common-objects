@@ -1,7 +1,7 @@
 package pl.czympojade.common;
 
 
-public class AuthenticationToken {
+public class AuthenticationToken implements Jsonable {
 
 	private final String accessToken;
 	private final String refreshToken;

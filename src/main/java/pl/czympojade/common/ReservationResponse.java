@@ -1,6 +1,6 @@
 package pl.czympojade.common;
 
-public class ReservationResponse {
+public class ReservationResponse implements Jsonable {
 
 	private String vehicleId;
 	private String provider;

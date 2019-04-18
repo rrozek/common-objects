@@ -1,6 +1,6 @@
 package pl.czympojade.common;
 
-public class AuthenticationCommand {
+public class AuthenticationCommand implements Jsonable {
 
 	private String login;
 	private String password;

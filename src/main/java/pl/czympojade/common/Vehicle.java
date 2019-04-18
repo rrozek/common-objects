@@ -1,6 +1,6 @@
 package pl.czympojade.common;
 
-public class Vehicle {
+public class Vehicle implements Jsonable {
 
 	private final Provider provider;
 	private final String externalId;

@@ -1,6 +1,6 @@
 package pl.czympojade.common;
 
-public class ProviderDetails {
+public class ProviderDetails implements Jsonable {
 
 	private final String name;
 	private final String logo;
