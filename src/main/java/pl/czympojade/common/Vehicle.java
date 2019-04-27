@@ -2,7 +2,7 @@ package pl.czympojade.common;
 
 public class Vehicle implements Jsonable {
 
-	private final Provider provider;
+	private final String provider;
 	private final String externalId;
 	private final String vehicleModel;
 	private final Double longitude;
@@ -13,7 +13,7 @@ public class Vehicle implements Jsonable {
 	private final Double range;
 	private final AvailabilityStatus availabilityStatus;
 
-	public Vehicle(Provider provider,
+	public Vehicle(String provider,
 		String externalId,
 		String vehicleModel,
 		Double longitude,
@@ -36,7 +36,7 @@ public class Vehicle implements Jsonable {
 		this.availabilityStatus = availabilityStatus;
 	}
 
-	public Provider getProvider() {
+	public String getProvider() {
 
 		return provider;
 	}

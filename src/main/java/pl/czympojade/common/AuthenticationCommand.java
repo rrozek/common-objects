@@ -4,7 +4,7 @@ public class AuthenticationCommand implements Jsonable {
 
 	private String login;
 	private String password;
-	private Provider provider;
+	private String provider;
 
 	public AuthenticationCommand() {}
 
@@ -12,7 +12,7 @@ public class AuthenticationCommand implements Jsonable {
 
 		this.login = login;
 		this.password = password;
-		this.provider = Provider.valueOf(provider);
+		this.provider = provider;
 	}
 
 	public String getLogin() {
@@ -35,12 +35,12 @@ public class AuthenticationCommand implements Jsonable {
 		this.password = password;
 	}
 
-	public Provider getProvider() {
+	public String getProvider() {
 
 		return provider;
 	}
 
-	public void setProvider(Provider provider) {
+	public void setProvider(String provider) {
 
 		this.provider = provider;
 	}
