@@ -1,0 +1,91 @@
+[
+   {
+      "name":"TRAFICAR",
+	  "logo":
+	  {
+		"small":"res_images_traficar_logo_small",
+		"big":"res_images_traficar_logo_big"
+	  },
+	  "marker":
+	  {
+		"free":"res_images_traficar_marker_free",
+		"busy":"res_images_traficar_marker_busy"
+	  },
+      "appLink_android":"pl.express.traficar",
+      "appLink_ios":"traficarprod://launch",
+      "credentialsEmailRequired":true,
+      "credentialsPhoneRequired":false,
+      "vehicles":[
+         {
+            "model":"Renault Clio",
+            "img":"res_images_traficar_vehicle_clio1"
+         },
+         {
+            "model":"Renault Kangoo",
+            "img":"res_images_traficar_vehicle_kangoo1"
+         },
+         {
+            "model":"Opel Corsa",
+            "img":"res_images_traficar_vehicle_corsa1"
+         },
+         {
+            "model":"Renault Zoe",
+            "img":"res_images_traficar_vehicle_zoe1"
+         }
+      ]
+   },
+   {
+      "name":"VOZILLA",
+	  "logo":
+	  {
+		"small":"res_images_vozilla_logo_small",
+		"big":"res_images_vozilla_logo_big"
+	  },
+	  "marker":
+	  {
+		"free":"res_images_vozilla_marker_free",
+		"busy":"res_images_vozilla_marker_busy"
+	  },
+      "appLink_android":"pl.techgarden.vozilla",
+      "appLink_ios":"https://itunes.apple.com/app/vozilla",
+      "credentialsEmailRequired":true,
+      "credentialsPhoneRequired":false,
+      "vehicles":[
+         {
+            "model":"Nissan Leaf",
+            "img":"res_images_vozilla_vehicle_leaf1"
+         },
+         {
+            "model":"Nissan NV200",
+            "img":"res_images_vozilla_vehicle_env2001"
+         }
+      ]
+   },
+   {
+      "name":"GOSCOOTER",
+	  "logo":
+	  {
+		"small":"res_images_goscooter_logo_small",
+		"big":"res_images_goscooter_logo_big"
+	  },
+	  "marker":
+	  {
+		"free":"res_images_goscooter_marker_free",
+		"busy":"res_images_goscooter_marker_busy"
+	  },  
+      "appLink_android":"something",
+      "appLink_ios":"whatever",
+      "credentialsEmailRequired":true,
+      "credentialsPhoneRequired":false,
+	  "vehicles":[
+         {
+            "model":"Electric Scooter",
+            "img":"res_images_goscooter_vehicle_scootergreen1"
+         },
+         {
+            "model":"Electric Scooter Premium",
+            "img":"res_images_goscooter_vehicle_scooterwhite1"
+         }	 
+      ]
+   }
+]
