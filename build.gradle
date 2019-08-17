@@ -2,12 +2,12 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'pl.czympojade'
-version = '0.8'
+version = '0.9'
 
 repositories {
     jcenter()
 	maven {
-		url "https://mymavenrepo.com/repo/gt2JML7wutIrYPLszeTR/"
+		url "g/repo/gt2JML7wutIrYPLszeTR/"
 		credentials {
 			username 'myMavenRepo'
 			password 'repozytorium'
