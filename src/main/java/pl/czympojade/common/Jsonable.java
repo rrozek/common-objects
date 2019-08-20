@@ -3,6 +3,7 @@ package pl.czympojade.common;
 import java.io.Serializable;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 
 public interface Jsonable extends Serializable {
