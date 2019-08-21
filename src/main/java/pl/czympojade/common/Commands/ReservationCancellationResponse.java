@@ -3,9 +3,11 @@
 // (powered by Fernflower decompiler)
 //
 
-package pl.czympojade.common;
+package pl.czympojade.common.Commands;
 
-public class ReservationCancellationResponse {
+import pl.czympojade.common.Jsonable;
+
+public class ReservationCancellationResponse implements Jsonable {
     public ReservationCancellationResponse() {
     }
 }

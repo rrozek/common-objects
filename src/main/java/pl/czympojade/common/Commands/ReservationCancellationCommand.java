@@ -3,9 +3,11 @@
 // (powered by Fernflower decompiler)
 //
 
-package pl.czympojade.common;
+package pl.czympojade.common.Commands;
 
-public class ReservationCancellationCommand {
+import pl.czympojade.common.Jsonable;
+
+public class ReservationCancellationCommand implements Jsonable {
     private String provider;
     private String token;
 

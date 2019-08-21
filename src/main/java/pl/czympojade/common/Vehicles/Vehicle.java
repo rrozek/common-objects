@@ -1,4 +1,6 @@
-package pl.czympojade.common;
+package pl.czympojade.common.Vehicles;
+
+import pl.czympojade.common.Jsonable;
 
 public class Vehicle implements Jsonable {
 

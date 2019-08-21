@@ -1,4 +1,4 @@
-package pl.czympojade.common;
+package pl.czympojade.common.Vehicles;
 
 public enum VehicleType {
 

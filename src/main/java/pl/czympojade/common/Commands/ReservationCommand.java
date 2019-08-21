@@ -1,4 +1,6 @@
-package pl.czympojade.common;
+package pl.czympojade.common.Commands;
+
+import pl.czympojade.common.Jsonable;
 
 public class ReservationCommand implements Jsonable {
 
