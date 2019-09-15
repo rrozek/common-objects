@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'pl.czympojade'
-version = '0.12'
+version = '0.13'
 
 repositories {
     jcenter()

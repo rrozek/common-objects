@@ -11,7 +11,6 @@ public interface Jsonable extends Serializable {
 	default String toJson() {
 
 		Gson gson = new GsonBuilder()
-				.excludeFieldsWithoutExposeAnnotation()
 				.create();
 		return gson.toJson(this);
 	}
@@ -19,7 +18,6 @@ public interface Jsonable extends Serializable {
 	static <O> O fromJson(Class<O> clazz, String json) {
 
 		Gson gson = new GsonBuilder()
-				.excludeFieldsWithoutExposeAnnotation()
 				.create();
 
 		return gson.fromJson(json, clazz);
